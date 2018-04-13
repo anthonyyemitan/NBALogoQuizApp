@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.nbalogoquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Instructions: Choose the corrrect team for each logo presented. Good Luck!" />
+
+        <!-- Houston Rockets -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/houston_rockets" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clevland Cavaliers" />
+
+            <RadioButton
+                android:id="@+id/houston_rockets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Houston Rockets" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toronto Raptors" />
+
+        </RadioGroup>
+
+        <!-- Cleveland Cavaliers -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/cavs" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boston Celtics" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Angeles Clippers" />
+
+            <RadioButton
+                android:id="@+id/cleveland_cavaliers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cleveland Cavaliers" />
+
+        </RadioGroup>
+        <!--Memphis Grizzlies-->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/i" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/memphis_grizzlies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memphis Grizzles" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milwaukee Bucks" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phoenix Suns" />
+
+        </RadioGroup>
+
+        <!-- New Orleans Pelicans -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/pelicans" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Angeles Clippers" />
+
+            <RadioButton
+                android:id="@+id/new_pelicans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Orleans Pelicans" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indiana Pacers" />
+
+        </RadioGroup>
+
+        <!-- Portland Trailblazers -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/portland" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/trail_blazers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Portland Trail Blazers" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dallas Mavericks" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detroit Pistons" />
+
+        </RadioGroup>
+
+        <!-- Toronoto Raptors -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/torontoraptorslogo" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sacramento Kings" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atlanta Hawks" />
+
+            <RadioButton
+                android:id="@+id/toronto_raptors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toronto Raptors" />
+
+        </RadioGroup>
+
+        <!-- San Antonio Spurs -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/sas" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sa_spurs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="San Antonio Spurs" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Utah Jazz" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indiana Pacers" />
+
+        </RadioGroup>
+
+        <!-- Utah Jazz -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/utahjazz" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charlotte Hornets" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atlanta Hawks" />
+
+            <RadioButton
+                android:id="@+id/utah_jazz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Utah Jazz" />
+
+        </RadioGroup>
+
+        <!-- Boston Celtics -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/boston_celtics_yu_masuda_2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orlando Magic" />
+
+            <RadioButton
+                android:id="@+id/boston_celtics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boston Celtics" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los Angeles Lakers" />
+
+        </RadioGroup>
+
+        <!-- Golden State Warriors -->
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="8dp"
+            android:src="@drawable/ab0e22e23a3a9b881e397d8bbf26cee8" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/golden_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golden State Warriors" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New York Nicks" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Miami Heat" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="checkCorrectness"
+            android:text="Finish Quiz"
+            android:textAllCaps="true"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+</ScrollView>
